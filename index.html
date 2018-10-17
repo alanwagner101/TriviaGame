@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="maintitle">
+                    <div class="card-body">
+                        <h1 id="title">Pub Trivia</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container1">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody1">
+                    <div class="card-body" id="content">
+                        <br><br>
+                        <button type="button" class="btn btn-success btn-lg" id="Start"><h1 id="starttext">Start</h1></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container2">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody2">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Which state is home to the only active diamond mine in the United States?</h1>
+                            <br><br>
+                            <h3 class="answers" id="wrong">Montana</h3>
+                            <h3 class="answers" id="correct1">Arkansas 7</h3>
+                            <h3 class="answers" id="wrong">West Virginia</h3>
+                            <h3 class="answers" id="wrong">Oklahoma</h3>
+                        <br><br>
+                        <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container3">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody3">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Which item is responsible for most cases of choking in the United States?</h1>
+                            <br><br>
+                            <h3 class="answers" id="wrong">Pen/ Pencil</h3>
+                            <h3 class="answers" id="correct2">Toothpick (floss)</h3>
+                            <h3 class="answers" id="wrong">Peanut</h3>
+                            <h3 class="answers" id="wrong">Carrot</h3>
+                        <br><br>
+                        <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody4">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Twist-Ties (and plastic tabs) on bread sold in stories are color-coded. Why?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="wrong">To tell which worker packaged the break.</h3>
+                            <h3 class="answers" id="correct3">To tell the date the bread was baked. 81</h3>
+                            <h3 class="answers" id="wrong">To confuse consumers.</h3>
+                            <h3 class="answers" id="wrong">To identify the bakery where the bread was baked.</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody5">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Which planet is home to the biggest canyon in the solar system?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="wrong">Venus</h3>
+                            <h3 class="answers" id="wrong">Earth</h3>
+                            <h3 class="answers" id="correct4">Mars 111</h3>
+                            <h3 class="answers" id="wrong">Jupiter</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container6">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody6">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Who was the inspiration for the dude in Aerosmith's "Dude (looks like a lady)"?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="correct5">Vince Neil (Motley Crue) 145</h3>
+                            <h3 class="answers" id="wrong">Jon Bon Jovi (Bon Jovi)</h3>
+                            <h3 class="answers" id="wrong">Dee Snider (Twisted Sister)</h3>
+                            <h3 class="answers" id="wrong">Sebastian Bach (Skid Row)</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container7">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody7">
+                    <div class="card-body" id="content">
+                        <h1 class="question">How many quills does the average porcupine have?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="correct6">30,000 27</h3>
+                            <h3 class="answers" id="wrong">40,000</h3>
+                            <h3 class="answers" id="wrong">50,000</h3>
+                            <h3 class="answers" id="wrong">80,000</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container8">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody8">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Where did the Manx cat originate?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="wrong">Hawaii</h3>
+                            <h3 class="answers" id="wrong">Australia</h3>
+                            <h3 class="answers" id="correct7">Isle of Man 29</h3>
+                            <h3 class="answers" id="wrong">Cuba</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container9">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody9">
+                    <div class="card-body" id="content">
+                        <h1 class="question">What do meteorologists refer to when they use the term "crawler"?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="wrong">Double rainbow</h3>
+                            <h3 class="answers" id="wrong">Slow-moving front</h3>
+                            <h3 class="answers" id="wrong">Tropical depression</h3>
+                            <h3 class="answers" id="correct8">Cloud-to-cloud lightning 91</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container10">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody10">
+                    <div class="card-body" id="content">
+                        <h1 class="question">Which musical genre has the most radio stations in the United States?</h1>  
+                            <br><br>
+                            <h3 class="answers" id="wrong">Rock</h3>
+                            <h3 class="answers" id="wrong">Top 40</h3>
+                            <h3 class="answers" id="correct9">Country 149</h3>
+                            <h3 class="answers" id="wrong">Oldies</h3>
+                          <br><br>
+                          <h1 class="timer">Timer : 15</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="container11">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card" id="mainbody11">
+                    <div class="card-body" id="content">
+                        <h1 id="WinLose"></h1>  
+                            <br><br>
+                            <h3 id="correctAnswer"></h3>
+                            <br><br>
+                            <h1 id="Tally"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="assets/javascript/app.js"></script>
+
+</html>

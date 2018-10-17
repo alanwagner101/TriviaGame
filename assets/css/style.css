@@ -1,0 +1,162 @@
+body {
+    background-image: url("../images/pub.jpg");
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+
+#maintitle {
+    background-color: rgba(0,0,0,0.7);
+    margin: 50px;
+    color: #457441;
+}
+
+#mainbody1 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody2 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody3 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody4 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody5 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody6 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody7 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody8 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody9 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody10 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody11 {
+    background-color: rgba(0,0,0,0.7);
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#container1 {
+    display: block;
+}
+
+#container2 {
+    display: none;
+}
+
+#container3 {
+    display: none;
+}
+
+#container4 {
+    display: none;
+}
+
+#container5 {
+    display: none;   
+}
+
+#container6 {
+    display: none;
+}
+
+#container7 {
+    display: none;
+}
+
+#container8 {
+    display: none;
+}
+
+#container9 {
+    display: none;   
+}
+
+#container10 {
+    display: none;
+}
+
+#container11 {
+    display: none;
+}
+
+#start {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+}
+
+#starttext {
+    margin: 50px;
+}
+
+.question {
+    border-bottom: 2px solid #457441;
+}
+
+.timer {
+    border-top: 2px solid #457441;
+}
+
+#Tally {
+    border-top: 2px solid #457441;
+}
+
+#WinLose {
+    border-bottom: 2px solid #457441;
+}
+
+#title {
+    
+}
