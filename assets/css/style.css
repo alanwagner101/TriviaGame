@@ -6,12 +6,16 @@ body {
 
 #maintitle {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
     margin: 50px;
+    padding: 20px;
     color: #457441;
 }
 
 #mainbody1 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -19,6 +23,8 @@ body {
 
 #mainbody2 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -26,6 +32,8 @@ body {
 
 #mainbody3 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -33,6 +41,8 @@ body {
 
 #mainbody4 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -40,6 +50,8 @@ body {
 
 #mainbody5 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -47,6 +59,8 @@ body {
 
 #mainbody6 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -54,6 +68,8 @@ body {
 
 #mainbody7 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -61,6 +77,8 @@ body {
 
 #mainbody8 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -68,6 +86,8 @@ body {
 
 #mainbody9 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -75,6 +95,8 @@ body {
 
 #mainbody10 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -82,6 +104,17 @@ body {
 
 #mainbody11 {
     background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
+    margin: 0px 50px 50px 50px;
+    height: 700px;
+    color: #457441;
+}
+
+#mainbody12 {
+    background-color: rgba(0,0,0,0.7);
+    border: 20px dashed #457441;
+    padding:20px;
     margin: 0px 50px 50px 50px;
     height: 700px;
     color: #457441;
@@ -128,6 +161,10 @@ body {
 }
 
 #container11 {
+    display: none;
+}
+
+#container12 {
     display: none;
 }
 
