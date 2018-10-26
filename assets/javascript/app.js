@@ -10,6 +10,15 @@ window.onload = function() {
             clearInterval(intervalID);
             click1 = true;
         };
+    $("#Restart").on("click", function() {
+        x = 0;
+        game.time = 15;
+        game.w = 0;
+        game.l = 0;
+        click1 = false;
+        page[11].css("display", "none");
+        page[0].css("display", "block");
+    })
     });
 }
 
@@ -137,6 +146,7 @@ window.onload = function() {
         $("#ThankYou").text("Thank you for playing!!");
         $("#Result").text("Results");
         $("#TallyEnd").text("Correct : " + game.w + " Incorrect : " + game.l);
+        
     }
 
 

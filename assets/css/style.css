@@ -168,13 +168,11 @@ body {
     display: none;
 }
 
-#start {
-    width: 100px;
-    height: 100px;
-    margin-top: 100px;
+#starttext {
+    margin: 50px;
 }
 
-#starttext {
+#restarttext {
     margin: 50px;
 }
 
@@ -192,8 +190,4 @@ body {
 
 #WinLose {
     border-bottom: 2px solid #457441;
-}
-
-#title {
-    
 }
