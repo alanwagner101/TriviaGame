@@ -4,6 +4,8 @@ https://alanwagner101.github.io/TriviaGame/
 
 This game brings your favorite pubs weekly trivia to your house where the beer is a little cheeper and the seats are a little more comfortable.
 
+The main challenge for this game was in using .setInterval() and .setTimeout() functions to alter elements and the DOM and also to make sure the users have the appropriate amount of time to interact with the content.
+
 When you open the web page you are presented with a large green start button, once you press this button there is no going back, no way to pause.
 
 upon clicking start the first question is presented, 
